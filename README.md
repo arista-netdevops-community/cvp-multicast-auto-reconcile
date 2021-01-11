@@ -31,7 +31,7 @@ The script will only update/create corresponding task on CVP if generated config
 
 ### Custom TerminAttr with `-running_config_filter` option support
 
-`-running_config_filter` prevents streaming certain config lines to CVP to avoid blocking CVP Change Control in case of a device running config change. Please contact your SE to get custom TerminAttr version `-running_config_filter`.  
+`-running_config_filter` prevents streaming certain config lines to CVP to avoid blocking CVP Change Control in case of a device running config change. Please contact your SE to get the custom TerminAttr version with `-running_config_filter` support.  
 The following example will prevent streaming of configured `239.x.x.x` routes to CVP:
 
 ```jinja
